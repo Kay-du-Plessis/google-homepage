@@ -1,23 +1,45 @@
+html {
+    border: solid 1px red;
+}
+
 body {
     font-family: arial;
+    border: solid 1px black;
 }
 
 #icon {
     height: 92px;
     width: 272px;
+    border: solid 1px blue;
 }
 
 .navbar {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     width: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    border: solid 1px green;
 }
 
 .nav-links {
     display: flex;
+    justify-content: flex-start;
     width: 100%;
-    flex-basis: auto;
-    padding: 15px;
+    border: solid 5px pink;
+}
+
+.nav-linksr {
+    border: solid 1px grey;
+}
+
+.nav-linksl {
+    border: solid 1px darkorchid;
+}
+
+.search {
+    border: solid 1px lightblue;
+}
+
+.button {
+    border: solid 1px orangered;
 }
