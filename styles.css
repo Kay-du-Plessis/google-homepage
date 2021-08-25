@@ -1,15 +1,23 @@
 html {
+    height: 100%;
     border: solid 1px red;
 }
 
 body {
+    min-height: 100%;
+    margin: 0 auto;
     font-family: arial;
+    font-size: 13px;
     border: solid 1px black;
 }
 
 #icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 92px;
     width: 272px;
+    padding-top: 109px;
     border: solid 1px blue;
 }
 
@@ -36,8 +44,27 @@ body {
     border: solid 1px darkorchid;
 }
 
-.search {
+.searchdiv {
+    width: 100px;
     border: solid 1px lightblue;
+}
+
+#search {
+    margin: 9px 0;
+    color: #9AA0A6;
+}
+
+.search{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 582px;
+    height: 44px;
+    text-align: center;
+
+}
+
+.mic {
+   margin: 9px 0;
 }
 
 .button {
