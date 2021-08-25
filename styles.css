@@ -1,15 +1,23 @@
-ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 800px;
-  }
+body {
+    font-family: arial;
+}
 
-  li {
-      float: left;
-  }
-  
-  a {
-    display: block;
-    padding: 10px;
-  }
+#icon {
+    height: 92px;
+    width: 272px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    width: 100%;
+    flex-basis: auto;
+    padding: 15px;
+}
