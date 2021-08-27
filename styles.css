@@ -127,12 +127,13 @@ a:hover {
 
 .button input:hover {
     color: black;
-    border: 1px solid #5F6368;
+    border: 1px solid #dadce0;
 }
 
 input:focus {
     outline: none !important;
 }
+
 
 #sign-in {
     display: block;
@@ -145,4 +146,10 @@ input:focus {
     color: white;
     outline: none;
     text-align: lefttop;
+}
+
+.searchdiv:hover,
+.searchdiv:focus-within {
+    border-color: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28)
 }
