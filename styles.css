@@ -1,6 +1,7 @@
 
 
 body {
+    position: relative;
     height: auto;
     margin: 0 auto;
     font-family: arial;
@@ -29,6 +30,7 @@ body {
 #navbar2 {
     display: flex;
     flex-flow: row nowrap;
+    position: absolute;
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
